@@ -50,10 +50,10 @@ function activateMenuAtCurrentSection(section) {
 }
 
 function showNavOnScroll() {
-  if (scrollY > 0) {
-    navegacao.classList.add('scroll')
+  if (window.scrollY > 0) {
+    navegacao.classList.add("scroll")
   } else {
-    navegacao.classList.remove('scroll')
+    navegacao.classList.remove("scroll")
   }
 }
 
@@ -87,3 +87,4 @@ ScrollReveal({
   #about,
   #about header,
   #about .content`)
+  
