@@ -159,7 +159,7 @@ body.menu-expanded #navegacao .logo path,
   stroke: white;
 }
 
-/*=== NAVIGATION =========================*/
+/*=== navegacao =========================*/
 
 nav {
   display: flex;
@@ -507,7 +507,7 @@ footer .social-links {
     line-height: 5.2rem;
   }
 
-  /*=== NAVIGATION =========================*/
+  /*=== navegacao =========================*/
   /* reset */
   nav#navegacao .wrapper * {
     margin: 0;
